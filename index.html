@@ -1,9 +1,23 @@
-<!DOCTYPE html>
-<html>
-  <head>
-    <title>Smart LumoSwitch</title>
-  </head>
-  <frameset rows="100%">
-    <frame src="https://smart-lumoswitch.lovable.app/install" frameborder="0">
-  </frameset>
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Open App</title>
+  <!-- immediate redirect -->
+  <meta http-equiv="refresh" content="0; url=https://smart-lumoswitch.lovable.app/install" />
+  <style>
+    body { font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif; display:flex;align-items:center;justify-content:center;height:100vh;margin:0;}
+    a { color:inherit; text-decoration:underline; }
+  </style>
+</head>
+<body>
+  <div>
+    <p>If you are not redirected automatically, <a href="https://smart-lumoswitch.lovable.app/install">click here to install the app</a>.</p>
+  </div>
+  <script>
+    // immediate JS redirect fallback
+    try { window.location.replace("https://smart-lumoswitch.lovable.app/install"); } catch(e) {}
+  </script>
+</body>
 </html>
